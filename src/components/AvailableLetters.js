@@ -13,7 +13,7 @@ class AvailableLetters extends PureComponent {
 
   renderLetter(letter){
     if(!this.props.guesses.includes(letter))
-      return <LetterButton key={letter} letter={letter} enabled={true}/>
+      return <LetterButton key={letter} letter={letter}/>
   }
 
 	render() {
